@@ -1,6 +1,5 @@
 [project]
 name = "smart_pinyin"
-version = "0.4.6"
 description = "Smart Chinese-to-Pinyin converter."
 
 authors = [
@@ -22,9 +21,13 @@ dependencies = [
 
 readme = "README.md"
 
+dynamic = ["version"]
+
 [project.urls]
 Homepage = "https://github.com/xospc/python-smart-pinyin"
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
