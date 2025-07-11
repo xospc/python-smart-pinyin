@@ -1,0 +1,30 @@
+[project]
+name = "smart_pinyin"
+version = "0.4.6"
+description = "Smart Chinese-to-Pinyin converter."
+
+authors = [
+  {name = "mapix"},
+  {name = "Elephant Liu"},
+]
+
+license = "MIT"
+
+classifiers = [
+  "Programming Language :: Python :: 2.7",
+  "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "jieba",
+    "six",
+]
+
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/xospc/python-smart-pinyin"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
