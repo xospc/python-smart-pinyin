@@ -8,7 +8,7 @@ setup(
     version='0.4.6',
     description='Smart Chinese-to-Pinyin converter.',
     author='Elephant Liu',
-    url='https://github.com/lexdene/Pinyin',
+    url='https://github.com/xospc/python-smart-pinyin',
     license='MIT',
     packages=find_packages(),
     package_data={

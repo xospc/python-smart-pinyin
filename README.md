@@ -3,6 +3,7 @@ Pinyin
 
 Smart Chinese-to-Pinyin converter.
 
+fork from https://github.com/mapix/Pinyin
 
 Getting Started
 ---------------
