@@ -10,9 +10,10 @@ authors = [
 license = "MIT"
 
 classifiers = [
-  "Programming Language :: Python :: 2.7",
   "Programming Language :: Python :: 3",
 ]
+
+requires-python = ">=3.10"
 
 dependencies = [
     "jieba",
@@ -28,8 +29,5 @@ Homepage = "https://github.com/xospc/python-smart-pinyin"
 [build-system]
 requires = ["setuptools>=64", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
-
-[tool.requires-python]
-version = ">=3.10"
 
 [tool.setuptools_scm]
